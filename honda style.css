@@ -1,0 +1,86 @@
+body{
+                background-image:radial-gradient(rgb(252, 183, 149), rgb(252, 200, 174));
+           }
+         .carousel-inner img {
+             width: 100vw;
+             height: 50vw;
+           }
+         .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+}
+        .centered button{
+                background: transparent;
+                border: 2px solid orange;
+                border-radius: 30px;
+                overflow: hidden;
+                cursor: crosshair;
+                transition: 1s;
+            
+           } 
+           .centered button a{
+               text-decoration: none;
+           }
+           .centered button:hover{
+               background-image: radial-gradient(rgb(255, 119, 28),rgb(250,235,215)); 
+           }
+        nav{
+                border-radius: 40px; background-image: radial-gradient(rgb(250,235,215), rgb(255, 119, 28));
+            margin-bottom: 25px;
+            }
+    
+         nav button.btn{
+               background: transparent;
+                border-radius: 90px;
+                overflow: hidden;
+             border-style: none;
+             transition: 1s;
+            
+           }
+           nav button.btn:hover{
+               background-image: radial-gradient(rgb(255, 119, 28),rgb(250,235,215));
+           }
+          
+           
+           a{
+               color: black;
+           }
+
+        form .login{
+            margin-top: 35px;
+            }
+
+        #loginbox{
+            margin-left: 35%; 
+            margin-right: 35%; 
+            margin-bottom: 2%; 
+            padding: 25px; 
+            border: solid 2px rgb(250,235,215); border-radius: 40px; 
+            background-image: radial-gradient(rgb(250,235,215), rgb(255, 119, 28));
+            }
+.form-group input{
+               background: transparent;
+               border: none;
+               outline: none;
+               box-shadow: none;
+               
+           }
+           .form-group input:hover {
+               background:radial-gradient(rgb(250,235,215), rgb(255, 119, 28));
+               border-radius: 15px;
+               margin-top: 20px;
+           }
+           
+
+          
+
+
+        footer{
+            margin-top: 25px; 
+            border-radius: 40px; 
+            background-image: linear-gradient(to bottom ,rgb(255, 144, 89), rgb(252, 200, 174) )
+                }
+        
