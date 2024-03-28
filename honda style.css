@@ -1,5 +1,7 @@
 body{
-                background-image:radial-gradient(rgb(252, 183, 149), rgb(252, 200, 174));
+                background-color: #fff8eb;
+            opacity: 1;
+            background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fff8eb 23px ), repeating-linear-gradient( #fcb79555, #fcb795 );
            }
          .carousel-inner img {
              width: 100vw;
